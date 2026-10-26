@@ -1,72 +1,156 @@
-📊 Sales Data Analysis
+📊 Retail Sales Data Analysis
 
-An end-to-end exploratory sales data analysis project using Python, Pandas, NumPy, data visualization, and Power BI. This project examines sales performance across time, products, customers, and geographic regions to identify business patterns and support data-driven decision-making.
+An Exploratory Data Analysis Project Using Python and Power BI
 
-📌 Project Overview
+An end-to-end retail sales analysis project focused on identifying sales trends, evaluating product and geographic performance, understanding customer purchasing patterns, and analyzing shipping operations.
 
-This project analyzes a retail sales dataset containing 9,800 records and 21 columns, covering transactions from 2015 to 2018 across the United States.
+The project transforms raw transaction data into measurable business insights using Python, data analysis techniques, and visualization.
 
-The analysis focuses on understanding sales trends, identifying high-performing product categories and locations, examining customer purchasing patterns, and evaluating shipping behavior.
+---
 
-🎯 Business Problem
+📌 Table of Contents
 
-Sales data can reveal valuable business patterns, but raw transaction records are difficult to interpret without structured analysis.
+- "Project Overview" (#-project-overview)
+- "Business Problem" (#-business-problem)
+- "Project Objectives" (#-project-objectives)
+- "Dataset Overview" (#-dataset-overview)
+- "Tools and Technologies" (#-tools-and-technologies)
+- "Project Workflow" (#-project-workflow)
+- "Key Performance Indicators" (#-key-performance-indicators)
+- "Key Business Insights" (#-key-business-insights)
+- "Business Recommendations" (#-business-recommendations)
+- "Data Quality Assessment" (#-data-quality-assessment)
+- "Project Screenshots" (#-project-screenshots)
+- "Limitations" (#-limitations)
+- "Future Improvements" (#-future-improvements)
+- "Repository Structure" (#-repository-structure)
+- "Author" (#-author)
 
-This project transforms raw sales data into actionable insights by answering questions such as:
+---
 
-- How have sales changed over time?
-- Which product categories and subcategories generate the most sales?
-- Which regions, states, and cities contribute most to total sales?
-- How are sales distributed across customers and orders?
-- Which shipping methods are most frequently used?
-- How long does each shipping method take from order placement to shipment?
+🎯 Project Overview
 
-🛠️ Tools & Technologies
+This project analyzes a retail sales dataset containing 9,800 records and 21 columns, covering transactions from January 2015 to December 2018 across the United States.
 
-- Python — Data analysis and processing
-- Pandas — Data manipulation and aggregation
-- NumPy — Numerical operations
-- Matplotlib & Seaborn — Data visualization
-- Power BI — Interactive business reporting
-- Jupyter / Google Colab — Analysis environment
-- Git & GitHub — Version control and project documentation
+The analysis examines sales performance across time, product categories, geographic regions, customers, orders, and shipping methods.
 
-🔍 Project Workflow
+The goal is to demonstrate how data analysis can help businesses understand performance, identify patterns, and make better-informed decisions.
 
-1. Data Understanding and Quality Checks
+❓ Business Problem
 
-- Inspected dataset dimensions, columns, and data types.
-- Checked for missing values and duplicate full records.
+Retail businesses generate large amounts of transaction data, but raw records do not immediately reveal which products perform best, where sales are concentrated, or how purchasing patterns change over time.
+
+This project addresses the following questions:
+
+- How did sales change between 2015 and 2018?
+- Which months recorded the highest and lowest sales?
+- Which product categories and subcategories generated the most sales?
+- Which regions, states, and cities contributed most to total sales?
+- How were sales distributed across customers and orders?
+- Which shipping methods were used most frequently?
+- How much time elapsed between order placement and shipment?
+
+🎯 Project Objectives
+
+1. Examine the dataset's structure and quality.
+2. Validate records before performing analysis.
+3. Calculate key sales performance indicators.
+4. Analyze sales trends across years and months.
+5. Compare product categories and subcategories.
+6. Identify geographic differences in sales.
+7. Analyze customer sales and order value distributions.
+8. Compare shipping methods and shipment timing.
+9. Communicate findings through visualizations and business recommendations.
+
+📁 Dataset Overview
+
+The dataset contains 9,800 records and 21 columns.
+
+The main fields used in the analysis include:
+
+Field| Description
+Order ID| Unique identifier for an order
+Order Date| Date the order was placed
+Ship Date| Date the order was shipped
+Ship Mode| Selected shipping method
+Customer ID| Customer identifier
+Customer Name| Customer name
+Segment| Customer segment
+Country| Country associated with the transaction
+City| City associated with the transaction
+State| State associated with the transaction
+Region| Geographic sales region
+Product ID| Product identifier
+Category| Main product category
+Sub-Category| Product subcategory
+Product Name| Product name
+Sales| Recorded sales amount
+Year| Order year
+Month| Order month number
+Month Name| Order month name
+Day| Day of the month
+
+The dataset covers the period from January 3, 2015, to December 30, 2018.
+
+The source file included in the repository is "sales.csv".
+
+🛠️ Tools and Technologies
+
+Tool| Purpose
+Python| Data analysis and processing
+Pandas| Data manipulation and aggregation
+NumPy| Numerical operations
+Matplotlib| Data visualization
+Seaborn| Statistical visualization
+Google Colab| Python analysis environment
+Power BI| Dashboard visualization and reporting
+GitHub| Project hosting and documentation
+
+🔄 Project Workflow
+
+1. Data Understanding
+
+- Inspected dataset dimensions and column names.
+- Reviewed data types and field meanings.
+- Examined the date range and sales distribution.
+
+2. Data Quality Assessment
+
+- Checked for missing values.
+- Checked for duplicate full records.
 - Validated order and shipping dates.
-- Checked sales values for missing or non-positive entries.
-- Verified date consistency, including year and month fields.
-- Confirmed that shipping dates were not earlier than order dates.
+- Checked for non-positive sales values.
+- Verified consistency between date fields and derived year/month fields.
+- Checked that shipping dates were not earlier than order dates.
 
-Data quality results: The audit found no missing values, duplicate full rows, invalid dates, or non-positive sales values.
+3. Exploratory Data Analysis (EDA)
 
-No records needed to be removed during these checks.
+Performed analysis across the following areas:
 
-2. Exploratory Data Analysis (EDA)
-
-The analysis covered:
-
-- Annual and monthly sales trends
-- Sales by category and subcategory
-- Regional, state, and city performance
-- Customer-level sales analysis
+- Annual sales performance
+- Monthly sales patterns
+- Product category and subcategory performance
+- Regional, state, and city sales
+- Customer sales performance
 - Order value distribution
 - Shipping method usage
-- Shipping duration by shipping method
+- Shipping duration
 
-3. Data Visualization and Reporting
+4. Visualization
 
-Charts and aggregated tables were used to compare performance, identify patterns, and communicate findings.
+Used charts and aggregated tables to communicate trends, compare categories, and highlight differences in performance.
 
-Power BI was used to present sales performance through dashboard visualizations.
+Power BI dashboard screenshots are included in the repository.
 
-📈 Key Performance Indicators (KPIs)
+5. Business Interpretation
 
-Metric| Result
+Converted the numerical results into business observations and recommendations while distinguishing observed patterns from unverified explanations.
+
+📊 Key Performance Indicators
+
+The following indicators summarize overall sales performance.
+
+KPI| Result
 Total Sales| $2,261,536.78
 Total Orders| 4,922
 Unique Customers| 793
@@ -74,7 +158,16 @@ Unique Products| 1,861
 Average Order Value| $459.48
 Average Sales per Record| $230.77
 
-Note: Average Order Value is calculated by summing sales for each unique order and then averaging the order totals. Average Sales per Record is calculated at the individual transaction-row level.
+Metric definitions:
+
+- Total Sales: Sum of all recorded sales values.
+- Total Orders: Number of unique order IDs.
+- Unique Customers: Number of distinct customer IDs.
+- Unique Products: Number of distinct product IDs.
+- Average Order Value (AOV): Total sales divided by the number of unique orders.
+- Average Sales per Record: Total sales divided by the number of transaction rows.
+
+Average Sales per Record and Average Order Value measure different things and should not be interpreted interchangeably.
 
 💡 Key Business Insights
 
@@ -86,22 +179,40 @@ Year| Total Sales| Year-over-Year Growth
 2017| $600,192.55| +30.64%
 2018| $722,052.02| +20.30%
 
-Insight: Sales declined by 4.26% in 2016 before increasing by 30.64% in 2017 and 20.30% in 2018. The highest annual sales occurred in 2018.
+Finding: Sales declined by 4.26% in 2016, then increased by 30.64% in 2017 and 20.30% in 2018.
 
-Business implication: Comparing yearly performance can help businesses identify periods of growth or decline and investigate the factors behind those changes.
+The highest annual sales occurred in 2018, reaching $722,052.02.
 
-2. Product Category Performance
+Business implication: Reviewing yearly changes can help businesses identify periods requiring further investigation and understand how performance evolves over time.
+
+2. Monthly Sales Patterns
+
+Month| Total Sales
+November| $350,161.71
+December| $321,480.17
+September| $300,103.41
+February| $59,371.12
+
+Finding: November recorded the highest aggregated monthly sales across the four-year period, while February recorded the lowest.
+
+Business implication: Monthly sales patterns can support further investigation into inventory planning and promotional timing.
+
+These aggregated figures alone do not prove that the differences are caused by seasonality.
+
+3. Product Category Performance
 
 Category| Total Sales| Share of Total Sales
 Technology| $827,455.87| 36.59%
 Furniture| $728,658.58| 32.22%
 Office Supplies| $705,422.33| 31.19%
 
-Insight: Technology generated the largest share of sales, accounting for approximately 36.59% of total revenue.
+Finding: Technology generated the largest share of total sales, accounting for approximately 36.59%.
 
-Business implication: Businesses can investigate the products and customer needs contributing to Technology sales before making inventory or marketing decisions.
+Furniture and Office Supplies also contributed substantial shares of overall sales.
 
-3. Top-Performing Subcategories
+Business implication: Businesses can investigate product demand, inventory availability, and category-level purchasing patterns to better understand these differences.
+
+4. Top-Performing Subcategories
 
 Subcategory| Total Sales| Share of Total Sales
 Phones| $327,782.45| 14.49%
@@ -110,11 +221,13 @@ Storage| $219,343.39| 9.70%
 Tables| $202,810.63| 8.97%
 Binders| $200,028.78| 8.84%
 
-Insight: Phones ranked first in total sales, followed closely by Chairs. Together, these two subcategories contributed approximately 28.76% of total sales.
+Finding: Phones ranked first in sales, followed by Chairs. Together, these two subcategories generated approximately 28.76% of total sales.
 
-Business implication: These subcategories are useful candidates for further investigation into demand, stock availability, pricing, and sales trends.
+Business implication: These subcategories are useful candidates for further investigation into demand, pricing, inventory availability, and sales performance.
 
-4. Regional Sales Performance
+High sales do not necessarily mean high profitability.
+
+5. Regional Sales Performance
 
 Region| Total Sales| Share of Total Sales
 West| $710,219.68| 31.40%
@@ -122,119 +235,203 @@ East| $669,518.73| 29.60%
 Central| $492,646.91| 21.78%
 South| $389,151.46| 17.21%
 
-Insight: The West region recorded the highest sales, while the South recorded the lowest. Together, the West and East accounted for approximately 61% of total sales.
+Finding: The West recorded the highest sales, while the South recorded the lowest.
 
-Business implication: Regional comparisons can help prioritize further investigation into customer demand, product availability, and opportunities in lower-performing regions.
+The West and East together accounted for approximately 61% of total sales.
 
-5. Geographic Concentration
+Business implication: Regional comparisons can help identify areas for deeper market analysis and guide investigation into differences in customer demand and product availability.
 
-- California generated $446,306.46, approximately 19.73% of total sales.
-- New York generated $306,361.15, approximately 13.55% of total sales.
-- New York City recorded $252,462.55, approximately 11.16% of total sales.
+6. State-Level Sales Performance
 
-Insight: California was the highest-performing state, while New York City was the highest-performing city by sales.
+State| Total Sales| Share of Total Sales
+California| $446,306.46| 19.73%
+New York| $306,361.15| 13.55%
+Texas| $168,572.53| 7.45%
+Washington| $135,206.85| 5.98%
+Pennsylvania| $116,276.65| 5.14%
 
-Business implication: Geographic sales patterns can guide more detailed market analysis and help businesses evaluate where additional sales opportunities may exist.
+Finding: California ranked first among states, generating approximately 19.73% of total sales.
 
-6. Customer and Order Value Analysis
+California and New York together generated $752,667.61, representing approximately 33.28% of total sales.
 
-- Total unique customers: 793
-- Average order value: $459.48
-- Median order value: $151.88
-- Highest order value: $23,661.23
+Business implication: State-level performance can help businesses identify where further market analysis may be most valuable.
 
-Insight: The average order value was substantially higher than the median, indicating a right-skewed order value distribution. A relatively small number of high-value orders may influence the average.
+7. City-Level Sales Performance
 
-Business implication: Median order value and the distribution of order totals should be considered alongside the average when evaluating typical customer purchases.
+City| State| Total Sales
+New York City| New York| $252,462.55
+Los Angeles| California| $173,420.18
+Seattle| Washington| $116,106.32
+San Francisco| California| $109,041.12
+Philadelphia| Pennsylvania| $108,841.75
 
-7. Monthly Sales Patterns
+Finding: New York City recorded the highest sales among the analyzed cities.
 
-- November recorded the highest aggregated monthly sales at $350,161.71.
-- February recorded the lowest aggregated monthly sales at $59,371.12.
+Business implication: City-level comparisons can provide more detailed insight into geographic sales distribution and help identify locations for further investigation.
 
-Insight: Sales varied considerably across calendar months, with November showing the highest total across the four-year dataset.
+Cities are analyzed together with their states to avoid incorrectly combining locations that share the same city name.
 
-Business implication: Monthly patterns can help inform further investigation into inventory planning and promotional timing. These aggregated results alone do not establish the cause of the differences or prove a recurring seasonal effect.
+8. Customer Sales Analysis
 
-8. Shipping Method Analysis
+The ten highest-selling customers collectively generated $143,810.16, approximately 6.36% of total sales.
 
-Shipping Method| Total Orders| Share of Orders| Average Days to Shipment
+The highest-selling customer in the dataset was Sean Miller, with recorded sales of $25,043.05.
+
+Among these ten customers, Ken Lonsdale recorded the highest number of orders, with 12.
+
+Finding: Ranking customers by sales and comparing their order counts provides two different views of customer purchasing behavior.
+
+Business implication: Customer-level analysis can help businesses investigate purchasing patterns and identify opportunities for customer engagement.
+
+9. Order Value Distribution
+
+Metric| Result
+Total Orders| 4,922
+Average Order Value| $459.48
+Median Order Value| $151.88
+Minimum Order Value| $0.56
+Maximum Order Value| $23,661.23
+
+Finding: The average order value is substantially higher than the median order value.
+
+This indicates a right-skewed distribution in which relatively high-value orders influence the average.
+
+Business implication: Median order value and the full distribution of order totals should be examined alongside the average when assessing typical purchasing behavior.
+
+10. Shipping Method Analysis
+
+Shipping Method| Orders| Share of Orders| Average Days to Shipment
 Standard Class| 2,945| 59.83%| 5.00
 Second Class| 944| 19.18%| 3.24
 First Class| 772| 15.68%| 2.19
 Same Day| 261| 5.30%| 0.05
 
-Insight: Standard Class was the most frequently used shipping method, accounting for approximately 59.83% of orders. Same Day was the least frequently used.
+Finding: Standard Class was the most frequently used shipping method, accounting for approximately 59.83% of orders.
 
-The average time from order placement to shipment varied across shipping methods.
+Same Day was the least frequently used method, accounting for approximately 5.30% of orders.
 
-Important distinction: Shipping duration is calculated as the difference between the order date and ship date. It does not measure the time taken for the package to reach the customer.
+The average time from order placement to shipment varied by shipping method.
+
+Important distinction: These durations measure the number of days between the order date and the ship date. They do not measure the time taken for a package to reach the customer.
 
 💼 Business Recommendations
 
 Based on the observed results, the following actions are worth investigating:
 
-1. Investigate sales growth: Examine what changed between 2016 and 2018 before attributing growth to a specific cause.
-2. Review product demand: Study Phones, Chairs, and other high-sales subcategories to inform inventory and merchandising decisions.
-3. Compare regional performance: Investigate differences between the West, East, Central, and South regions.
-4. Improve monthly planning: Use monthly sales patterns as a starting point for more detailed demand analysis.
-5. Evaluate order values: Examine high-value orders and the distribution of order totals rather than relying on the average alone.
-6. Review shipping operations: Compare shipping methods and shipment timing while considering the service characteristics of each method.
+1. Investigate annual performance: Examine the factors associated with the 2016 decline and the subsequent growth in sales.
+2. Review high-sales subcategories: Investigate Phones and Chairs to understand their demand patterns and inventory requirements.
+3. Compare regional performance: Examine differences between the West, East, Central, and South regions.
+4. Use monthly trends for planning: Investigate recurring monthly patterns before making seasonal inventory or marketing decisions.
+5. Understand order values: Examine high-value orders and the distribution of order totals rather than relying only on average order value.
+6. Analyze customer purchasing behavior: Compare customer sales, order counts, and order values to understand differences in purchasing patterns.
+7. Review shipping operations: Compare shipment timing across shipping methods while considering their different service characteristics.
 
-These are data-informed recommendations for further investigation, not proof that a particular business action will increase revenue.
+These recommendations identify areas for further investigation. The current analysis does not establish that any particular action will necessarily increase sales or profitability.
+
+✅ Data Quality Assessment
+
+The data quality checks produced the following results:
+
+Check| Result
+Total records| 9,800
+Total columns| 21
+Missing values| 0
+Duplicate full records| 0
+Non-positive sales values| 0
+Invalid date values| 0
+Shipping dates before order dates| 0
+Year/month inconsistencies in the checked fields| 0
+
+No records were removed during these checks.
+
+The audit supports the reliability of the checked fields, although it does not guarantee that every value in the original source data is free from error.
 
 🖼️ Project Screenshots
 
-Python Data Analysis
+Python Analysis and Data Cleaning
 
-"Python Analysis" (python1.png)
+![Python Analysis](https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python1.png)
+"Python Analysis" (python3.png)
 
-"Python Data Cleaning" (Data%20cleaning%20python6.png)
+"Python Analysis" (python4.png)
 
-Power BI Dashboard
+"Data Cleaning" (Data%20cleaning%20python6.png)
+
+"Data Cleaning" (Data%20cleaning%20python7.png)
+
+"Data Cleaning" (Data%20cleaning%20python8.png)
+
+"Data Cleaning" (Data%20cleaning%20python9.png)
+
+"Data Cleaning" (Data%20cleaning%20python10.png)
+
+Power BI Dashboards
 
 "Power BI Dashboard" (PowerBi.png)
 
-"Power BI Dashboard View" (PowerBi1.png)
+"Power BI Dashboard" (PowerBi1.png)
 
-"Power BI Dashboard View" (Power%20Bi3.png)
+"Power BI Dashboard" (PowerBi2.png)
 
-⚠️ Data Limitations
+"Power BI Dashboard" (Power%20Bi3.png)
 
-- The dataset covers transactions from 2015 through 2018 and should not be treated as a representation of current market conditions.
-- The dataset does not contain a "Profit" column. Therefore, this project does not establish product profitability, profit margins, or the most profitable categories.
-- Sales figures describe recorded sales, not profit or cash collected.
-- Observed relationships and trends do not, by themselves, establish causation.
+"Power BI Dashboard" (Power%20Bi5.png)
+
+⚠️ Project Limitations
+
+- The dataset covers 2015–2018 and should not be treated as a representation of current market conditions.
+- The dataset does not contain a "Profit" column. Therefore, this analysis cannot establish product profitability, profit margins, or which products are most profitable.
+- Recorded sales are not equivalent to profit or cash collected.
+- Observed trends do not establish causation.
+- Monthly totals alone do not prove seasonality.
 - Shipping duration measures the time between order placement and shipment, not final delivery time.
+- The current repository contains the dataset and screenshots, but the executable analysis notebook is not yet included.
 
 🚀 Future Improvements
 
 Potential extensions include:
 
-- Sales forecasting using time-series methods
-- Customer segmentation
-- Profitability analysis if suitable cost and profit data become available
-- More detailed product and geographic analysis
-- Enhanced Power BI reporting and interactive filtering
-- Automated data quality checks
+- Adding the complete, executable Python analysis notebook.
+- Improving the Power BI report with additional interactive filters.
+- Developing sales forecasting models.
+- Performing customer segmentation.
+- Conducting profitability analysis if suitable profit and cost data become available.
+- Adding automated data quality checks.
+- Exploring more detailed product, customer, and geographic trends.
 
-📁 Repository Contents
+📂 Repository Structure
 
-The repository includes the sales dataset, project screenshots, dependency information, and documentation.
+The repository currently contains:
 
-- "sales.csv" — Sales dataset
-- "images/" — Project images and visual assets
-- "requirements.txt" — Python dependencies
-- ".gitignore" — Git exclusion rules
-- "README.md" — Project documentation
-- "LICENSE" — Project license
+sales-data-analysis/
+├── sales.csv
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── MIT License
+├── images/
+├── python1.png
+├── python3.png
+├── python4.png
+├── Data cleaning python6.png
+├── Data cleaning python7.png
+├── Data cleaning python8.png
+├── Data cleaning python9.png
+├── Data cleaning python10.png
+├── PowerBi.png
+├── PowerBi1.png
+├── PowerBi2.png
+├── Power Bi3.png
+└── Power Bi5.png
+
+The "images/" directory is currently empty; the screenshots are stored in the repository's root directory.
 
 👤 Author
 
 Esmaile Emrany
 
-GitHub: "@esmailemrany" (https://github.com/esmailemrany)
+GitHub: "esmailemrany" (https://github.com/esmailemrany)
 
 ---
 
-This project demonstrates data cleaning validation, exploratory data analysis, aggregation, visualization, and business-oriented interpretation using retail sales data.
+This project demonstrates exploratory data analysis, data quality validation, aggregation, visualization, and business-oriented interpretation using retail sales data.
