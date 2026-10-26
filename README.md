@@ -346,36 +346,45 @@ No records were removed during these checks.
 
 The audit supports the reliability of the checked fields, although it does not guarantee that every value in the original source data is free from error.
 
-🖼️ Project Screenshots
+📸 Project Screenshots
 
-Python Analysis and Data Cleaning
+1. Python Data Analysis
 
-![Python Analysis](https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python1.png)
-"Python Analysis" (python3.png)
+The following screenshots demonstrate the Python analysis workflow and results.
 
-"Python Analysis" (python4.png)
+"Python Analysis 1" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python1.png)
 
-"Data Cleaning" (Data%20cleaning%20python6.png)
+"Python Analysis 2" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python3.png)
 
-"Data Cleaning" (Data%20cleaning%20python7.png)
+"Python Analysis 3" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python4.png)
 
-"Data Cleaning" (Data%20cleaning%20python8.png)
+2. Data Cleaning and Quality Checks
 
-"Data Cleaning" (Data%20cleaning%20python9.png)
+These screenshots show the data cleaning process and data quality validation.
 
-"Data Cleaning" (Data%20cleaning%20python10.png)
+"Data Cleaning 1" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python6.png)
 
-Power BI Dashboards
+"Data Cleaning 2" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python7.png)
 
-"Power BI Dashboard" (PowerBi.png)
+"Data Cleaning 3" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python8.png)
 
-"Power BI Dashboard" (PowerBi1.png)
+"Data Cleaning 4" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python9.png)
 
-"Power BI Dashboard" (PowerBi2.png)
+"Data Cleaning 5" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python10.png)
 
-"Power BI Dashboard" (Power%20Bi3.png)
+3. Power BI Dashboard
 
-"Power BI Dashboard" (Power%20Bi5.png)
+The following screenshots showcase the Power BI dashboard and sales analysis visualizations.
+
+"Power BI Dashboard 1" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi.png)
+
+"Power BI Dashboard 2" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi1.png)
+
+"Power BI Dashboard 3" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi2.png)
+
+"Power BI Dashboard 4" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Power%20Bi3.png)
+
+"Power BI Dashboard 5" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Power%20Bi5.png)
 
 ⚠️ Project Limitations
 
