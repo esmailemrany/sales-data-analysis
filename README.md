@@ -352,39 +352,19 @@ The audit supports the reliability of the checked fields, although it does not g
 
 The following screenshots demonstrate the Python analysis workflow and results.
 
-"Python Analysis 1" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python1.png)
-
-"Python Analysis 2" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python3.png)
-
-"Python Analysis 3" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python4.png)
+<div align="center"><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python1.png" width="90%" alt="Python Analysis 1" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python3.png" width="90%" alt="Python Analysis 2" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/python4.png" width="90%" alt="Python Analysis 3" /></div>---
 
 2. Data Cleaning and Quality Checks
 
 These screenshots show the data cleaning process and data quality validation.
 
-"Data Cleaning 1" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python6.png)
-
-"Data Cleaning 2" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python7.png)
-
-"Data Cleaning 3" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python8.png)
-
-"Data Cleaning 4" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python9.png)
-
-"Data Cleaning 5" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python10.png)
+<div align="center"><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python6.png" width="90%" alt="Data Cleaning 1" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python7.png" width="90%" alt="Data Cleaning 2" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python8.png" width="90%" alt="Data Cleaning 3" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python9.png" width="90%" alt="Data Cleaning 4" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Data%20cleaning%20python10.png" width="90%" alt="Data Cleaning 5" /></div>---
 
 3. Power BI Dashboard
 
 The following screenshots showcase the Power BI dashboard and sales analysis visualizations.
 
-"Power BI Dashboard 1" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi.png)
-
-"Power BI Dashboard 2" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi1.png)
-
-"Power BI Dashboard 3" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi2.png)
-
-"Power BI Dashboard 4" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Power%20Bi3.png)
-
-"Power BI Dashboard 5" (https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Power%20Bi5.png)
+<div align="center"><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi.png" width="90%" alt="Power BI Dashboard 1" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi1.png" width="90%" alt="Power BI Dashboard 2" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/PowerBi2.png" width="90%" alt="Power BI Dashboard 3" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Power%20Bi3.png" width="90%" alt="Power BI Dashboard 4" /><img src="https://raw.githubusercontent.com/esmailemrany/sales-data-analysis/main/Power%20Bi5.png" width="90%" alt="Power BI Dashboard 5" /></div>
 
 ⚠️ Project Limitations
 
